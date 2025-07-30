@@ -1,0 +1,32 @@
+#root {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input-field {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 600px;
+}
+
+.results-container {
+  width: 600px;
+  margin: auto;
+  text-align: left;
+  border: 2px solid black;
+  padding: 15px;
+  max-height: 500px;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+
+.result {
+  display: block;
+  padding: 5px;
+}
+
+.result:hover {
+  cursor: pointer;
+  background-color: beige;
+}
